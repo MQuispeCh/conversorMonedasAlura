@@ -51,6 +51,6 @@ Fue realizado en base al
 
 ## 🌐 Conéctate conmigo
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)]([(https://www.linkedin.com/in/manuel-jesus-quispe-chavez/)]
-[![TikTok](https://img.shields.io/badge/TikTok-Profile-black?style=flat-square&logo=tiktok)]([(https://www.tiktok.com/@jesusqch1)]
+[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg)](https://www.linkedin.com/in/manuel-jesus-quispe-chavez/)
+[![TikTok](https://upload.wikimedia.org/wikipedia/commons/a/a7/TikTok_logo.svg)](https://www.tiktok.com/@jesusqch1)
 
