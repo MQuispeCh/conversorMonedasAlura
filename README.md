@@ -1,53 +1,55 @@
-# 🌎💱 Conversor de Monedas
+# 📚 literAlura
 
-Este es un programa en Java que utiliza la API de ExchangeRate-API para convertir entre diferentes monedas. La aplicación permite al usuario seleccionar una cantidad en una moneda de origen y convertirla a una moneda de destino.
-Fue realizado en base al
-"Challenge ONE | Java | Back End | Conversor de Moneda"
+Este es un programa en Java basado en Spring Boot que permite gestionar libros y autores de manera eficiente. La aplicación facilita la búsqueda, registro y listado de libros y autores, con funcionalidades avanzadas para listar autores vivos en un año específico y libros por idioma. Fue realizado en base al 
+"Challenge ONE | Java | Back End | Gestión de Libros y Autores".
 
 ## ✨ Características
 
-- 🌐 Consulta las tasas de cambio actuales de la API de ExchangeRate-API.
-- 💵 Conversión entre varias monedas, incluyendo **USD**, **EUR**, **GBP**, **JPY**, **CAD**, **AUD**, y **PEN**.
-- 🖥️ Interfaz gráfica de usuario (GUI) simple usando JOptionPane para solicitar y mostrar información.
+-📖 Búsqueda de libros por título.
+-📝 Registro y listado de libros y autores en la base de datos.
+-🎭 Listado de autores vivos en un año específico.
+-🌐 Filtrado de libros por idioma.
+-🔄 Evita duplicados en la base de datos al procesar la información de libros y autores.
 
 ## 📋 Requisitos
 
-- ☕ Java 11 o superior.
-- 📦 Biblioteca Gson para manipulación de JSON.
+-☕ Java 11 o superior.
+-🛠️ Spring Boot 2.6.4.
+-🗄️ Base de datos SQL compatible (PostgreSQL, MySQL, MariaDB, SQL Server, H2).
+-📦 Maven para la gestión de dependencias.
 
 ## 🚀 Instalación
 
 1. **Clona el repositorio:**
     ```bash
-    git clone https://github.com/tu_usuario/conversor-monedas.git
+    git clone https://github.com/tu_usuario/literAlura.git
     ```
 2. **Navega al directorio del proyecto:**
     ```bash
-    cd conversor-monedas
+    cd literAlura
     ```
-3. **Asegúrate de tener la biblioteca Gson en tu classpath.** Puedes descargar Gson desde [aquí](https://github.com/google/gson) o usar un gestor de dependencias como Maven o Gradle.
+3. **Configura tu base de datos en el archivo application.properties.** spring.datasource.url=jdbc:postgresql://localhost:5432/nombre_de_tu_base_de_datos
+spring.datasource.username=tu_usuario
+spring.datasource.password=tu_contraseña
+spring.jpa.hibernate.ddl-auto=update
 
 ## 🛠️ Uso
 
-1. **Compila el programa:**
-    ```bash
-    javac -cp gson-2.8.6.jar:. org/example/ConversorMonedas.java
-    ```
-2. **Ejecuta el programa:**
-    ```bash
-    java -cp gson-2.8.6.jar:. org.example.ConversorMonedas
-    ```
-
-## 📌 Ejemplo de Uso
-
-1. Al ejecutar el programa, se te pedirá que ingreses la cantidad a convertir.
-2. Selecciona la moneda de origen de la lista desplegable.
-3. Selecciona la moneda de destino de la lista desplegable.
-4. El programa mostrará el resultado de la conversión en una ventana de diálogo.
-
-## 🔑 Nota
-
-- Asegúrate de reemplazar `API_KEY` con tu propia clave de API de ExchangeRate-API.
+1. **Compila y ejecuta el programa en tu IDE:**
+    - Abre el proyecto en tu IDE preferido.
+    - Ejecuta la clase LiteraturaApplication.
+      
+2. **Interfaz de Usuario:**
+    - Al iniciar la aplicación, se mostrará un menú en la consola con las siguientes opciones:
+      Bienvenidos a literAlura
+        Elija una opción:
+        1 - Buscar libro por título
+        2 - Listar libros registrados
+        3 - Listar autores registrados
+        4 - Listar autores vivos en un determinado año
+        5 - Listar libros por idioma
+        0 - Salir
+   - Selecciona la opción deseada ingresando el número correspondiente y sigue las instrucciones en pantalla.
 
 ## 🌐 Conéctate conmigo
 
