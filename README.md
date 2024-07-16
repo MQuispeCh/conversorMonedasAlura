@@ -51,6 +51,6 @@ Fue realizado en base al
 
 ## 🌐 Conéctate conmigo
 
-[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg)](https://www.linkedin.com/in/manuel-jesus-quispe-chavez/)
-[![TikTok](https://upload.wikimedia.org/wikipedia/commons/6/69/TikTok_logo.svg)](https://www.tiktok.com/@jesusqch1)
+¿Listo para compartir tus impresiones o sugerencias? ¡Hablemos! Puedes seguirme en [LinkedIn](https://www.linkedin.com/in/manuel-jesus-quispe-chavez/) y [TikTok](https://www.tiktok.com/@jesusqch1)
+
 
